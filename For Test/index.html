@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/colReorder.dataTables.min.css">
+<link rel="stylesheet" href="css/daterangepicker.css">
+</head>
+
+<body>
+    
+ 
+    <div class="table-responsive">
+    <table id="mytable" class="table display table-striped responsive-utilities jambo_table">
+ 
+
+        <thead>
+        
+                <tr>
+                    <th>
+                        Bank ID
+                    </th>
+        
+                    <th>
+                        Bank Name
+                    </th>
+        
+                    <th class="HideColumn">
+                        CreatedBy
+                    </th>
+        
+                    <th class="HideColumn">
+                        DateCreated
+                    </th>
+        
+                    <th class="HideColumn">
+                        UpdatedBy
+                    </th>
+        
+                    <th class="HideColumn">
+                        DateUpdated
+                    </th>
+        
+                    <!-- <th>Action</th> -->
+                </tr>
+        
+        
+            <tr class="filters">
+                <th class="input-filter">
+                    Bank ID
+                </th>
+        
+                <th class="input-filter">
+                    Bank Name
+                </th>
+        
+                <th class="input-filter">
+                    CreatedBy
+                </th>
+        
+                <th class="date-filter">
+                    DateCreated
+                </th>
+        
+                <th class="input-filter">
+                    UpdatedBy
+                </th>
+        
+                <th class="date-filter">
+                    DateUpdated
+                </th>
+        
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+        
+                    <tr>
+                        <td>
+                            1
+                        </td>
+                        <td>
+                            Bank of America
+                        </td>
+                        <td>
+                            kpaul
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td >
+                            kpaul
+                        </td>
+                        <td>
+                            08-May-2016 14:03:18
+                        </td>
+                        <td>
+         
+        
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            2
+                        </td>
+                        <td>
+                            Signature Bank
+                        </td>
+                        <td>
+                            jdoe
+                        </td>
+                        <td>
+                            29-Apr-2016 21:49:18
+                        </td>
+                        <td >
+                            jdoe
+                        </td>
+                        <td>
+                            29-Apr-2016 21:49:18
+                        </td>
+                        <td>
+        
+                             
+        
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            Wells Fargo
+                        </td>
+                        <td>
+                            jdoe
+                        </td>
+                        <td>
+                            29-Apr-2016 21:49:53
+                        </td>
+                        <td >
+                            jdoe
+                        </td>
+                        <td>
+                            29-Apr-2016 21:49:53
+                        </td>
+                        <td>
+        
+                          
+        
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            5
+                        </td>
+                        <td>
+                            Citigroup
+                        </td>
+                        <td>
+                            jdoe
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td >
+                            kpaul
+                        </td>
+                        <td>
+                            30-Apr-2016 23:49:17
+                        </td>
+                        <td>
+        
+                           
+        
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            6
+                        </td>
+                        <td>
+                            Chase Bank
+                        </td>
+                        <td>
+                            kpaul
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td >
+                            kpaul
+                        </td>
+                        <td>
+                            01-May-2016 00:04:15
+                        </td>
+                        <td>
+        
+                      
+        
+        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            7
+                        </td>
+                        <td>
+                            Capital One Financial
+                        </td>
+                        <td>
+                            jdoe
+                        </td>
+                        <td>
+                            01-May-2016 00:19:01
+                        </td>
+                        <td >
+                            jdoe
+                        </td>
+                        <td>
+                            01-May-2016 00:19:01
+                        </td>
+                        <td>
+        
+                           
+        
+        
+                        </td>
+                    </tr>
+           
+                     
+                   
+                   
+                    
+        
+            </tbody>
+        
+                <tfoot>
+                    <tr>
+                        <td ></td>
+                    </tr>
+        
+                </tfoot>
+        </table>
+    </div>
+        
+        
+        <script src="js/jquery-1.12.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
+        <script src="js/dataTables.bootstrap.min.js"></script>
+        <script src="js/dataTables.buttons.min.js"></script>
+        <script src="js/buttons.bootstrap.min.js"></script>
+        <script src="js/jszip.min.js"></script>
+        <script src="js/pdfmake.min.js"></script>
+        <script src="js/vfs_fonts.js"></script>
+        <script src="js/buttons.html5.min.js"></script>
+        <script src="js/buttons.print.min.js"></script>
+        <script src="js/buttons.colVis.min.js"></script>
+        <script src="js/dataTables.colReorder.min.js"></script>
+
+          
+        <!-- Include Required Prerequisites -->
+        <script src="js/moment.min.js"></script>
+        <!-- Include Date Range Picker -->
+        <script src="js/daterangepicker.js"></script>
+
+         
+          
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
